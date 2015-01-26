@@ -16,14 +16,14 @@ Use the mixin on your container (probably a `<ul>`), and tell it which child ele
 
 ### Variables
 
-- `$type-size--default` (number, any unit) Your default font size (default: 1em)
-- `$breakpoints` (list) The breakpoints you'd like to use for the grid.
+- `$type-size--default` _(number, any unit)_ Your default font size (default: 1em)
+- `$breakpoints` _(list)_ The breakpoints you'd like to use for the grid.
 
 ### Mixin parameters
 
 All parameters have default values (and are therefore optional).
 
-- `$cols` (list of numbers) The number of columns to create at each breakpoint. Best practice is to go from smallest to largest screen (ie, mobile first). (default: 1 2 3)
-- `$gutter` (number, any unit) The width of the gutters between each column. (default: 0)
-- `$child` (css selector) The child elements of the grid (default: "& > li").
+- `$cols` _(list of numbers)_ The number of columns to create at each breakpoint. Best practice is to go from smallest to largest screen (ie, mobile first). (default: 1 2 3)
+- `$gutter` _(number, any unit)_ The width of the gutters between each column. (default: 0)
+- `$child` _(css selector)_ The child elements of the grid (default: "& > li").
 
