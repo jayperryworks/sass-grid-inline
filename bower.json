@@ -1,0 +1,14 @@
+{
+  "name": "sass-grid-inline",
+  "version": "0.0.1",
+  "main": "_grid-inline.scss",
+  "ignore": [
+    "**/.*",
+    "README.md",
+    "LICENSE",
+    "bower.json"
+  ],
+  "dependencies": {
+    "breakpoint-sass": ">=2.4.0"
+  }
+}
