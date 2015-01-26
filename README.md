@@ -7,7 +7,7 @@ A small library to create fluid thumbnail or tile grids using inline-block displ
 Use the mixin on your container (probably a `<ul>`), and tell it which child elements you'd like it to use.
 
 ````css
-.my-awesome-thumbnail-grid { @include grid-inline(1 2 3, $gutter: 1em, $child: "& > li"); }
+.my-awesome-thumbnail-container { @include grid-inline(1 2 3, $gutter: 1em, $child: "& > li"); }
 ````
 
 **Note:** Your container will be given a negative margin on the right side to keep row width even. You may need to wrap it in another container if, for instance, you're using a centered layout.
